@@ -1,0 +1,152 @@
+body {
+    font-family: "Kumbh Sans", sans-serif; 
+    background-color: #232323;
+}
+
+
+
+
+.signup_form_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+    color: #fff;
+}
+
+.form_signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_signup button, input {
+    margin: 3% 0;
+    width: 300px;
+    padding: 10px;
+    border: 2px #0A84FF solid;
+    background: transparent;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.form_signup, input:focus {
+    outline: none;
+}
+
+
+.form_signup button {
+    background-color: #0A84FF;
+    width: 125px;
+    cursor: pointer;
+}
+
+.ticket_title{
+    color: #fff;
+    margin-bottom: -0.1%;
+}
+
+.welcome_user_text {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: lighter;
+} 
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+
+.menu :nth-child(1) {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 25% 0;
+}
+
+.menu :nth-child(2) {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.open-menu-container {
+    position: relative;
+    display: none;
+}
+
+
+.open-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    width: 15%;
+    padding: 15px;
+    border-radius: 8px;
+    right: 60px;
+    top: -50px;
+}
+
+.open-menu p {
+    color: #fff;
+}
+
+.open-menu a {
+    text-decoration: none;
+}
+
+.open-menu button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.ticket-send-in-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.ticket-send-in-form :nth-child(2),
+.ticket-send-in-form :nth-child(1) {
+    margin-bottom: -1%;
+}
+
+.ticket-send-in-form :nth-child(3) {
+    margin: 3% 0;
+    width: 300px;
+    padding: 10px;
+    border: 2px #0A84FF solid;
+    background: transparent;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Kumbh Sans", sans-serif; 
+}
+
+.ticket-send-in-form :nth-child(3):focus {
+    outline: none;
+}
+
+.ticket-send-in-form button {
+    width: 15%;
+    padding: 10px;
+    background-color: #0A84FF;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
