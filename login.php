@@ -19,7 +19,8 @@ session_start();
 <div class="signup_form_container">
     <form class="form_signup" method="post" action="login.php">
         <h1>Login</h1>
-            <input type="text" name="brukernavn_form" placeholder="Username">
+        <?php echo $feil; ?>
+        <input type="text" name="brukernavn_form" placeholder="Username">
         <input type="password" name="passord_form" placeholder="Password">
         <a href="signup.php"><p style="text-decoration: underline; cursor-pointer: pointer; color: #fff;">"Signup"</p></a>
         <button type="submit">Login</button>
